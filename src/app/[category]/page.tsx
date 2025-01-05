@@ -85,7 +85,7 @@ export default async function CategoryPage({
           </div>
         ) : (
           <p className="mt-6 text-gray-600">
-            No products found for the category "{params.category}".
+            No products found for the category {params.category}.
           </p>
         )}
       </div>
